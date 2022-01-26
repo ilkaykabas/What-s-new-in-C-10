@@ -8,7 +8,7 @@ namespace ConsoleAppCSharp9
     {
         private static void Main()
         {
-            Console.WriteLine("Example2");
+            Console.WriteLine("Example1");
             Example1();
             Console.WriteLine("--------");
             Console.WriteLine("Example4");
