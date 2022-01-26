@@ -25,8 +25,9 @@ namespace ConsoleAppCSharp9
             var rp2 = new RecordPerson("ilkay", "kabas");
             Console.WriteLine(rp1.Equals(rp2));
 
-            var rc3 = rp1 with {FirstName = "abc"};
-            Console.WriteLine(rc3);
+            var rp3 = rp1 with {FirstName = "abc"};
+            Console.WriteLine(rp3);
+            Console.WriteLine(rp1.Equals(rp3));
         }
 
         private static void Example4()
